@@ -1,0 +1,39 @@
+header{
+    color:white;
+    text-align:center;
+    
+    }
+    body {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://static4.depositphotos.com/1019706/337/i/600/depositphotos_3376847-stock-photo-music.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      
+    }
+    /* Estilo para os botões de exclusão */
+    .btnExcluir {
+        background-color: red;
+        color: white;
+        position: absolute;
+        top: 900px; /* Posicionamento vertical do botão (ajuste conforme necessário) */
+        right: 910px; /* Posicionamento horizontal do botão (ajuste conforme necessário) */
+        z-index: 1; /* Garante que o botão fique acima do vídeo */
+        padding: 15px;
+    }
+    h1, h2{
+        color: white;
+    }
+    .texto{
+        color: white;
+    }
+    /* Estilos para aumentar o tamanho da barra de entrada */
+    #tagVideo {
+        border-radius: 5%;
+        width: 580px; /* Defina o tamanho desejado em porcentagem, ou use um valor em pixels (por exemplo, width: 300px;) */
+        padding: 5px; /* Adicione um preenchimento para melhorar a aparência */
+        font-size: 16px; /* Tamanho da fonte */
+      
+    }
